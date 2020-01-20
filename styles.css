@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    background: black;
+}
+
+/*********** SIZES ***********/
+.grid-container { 
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 2fr 1fr 2fr;
+    border-color: white;
+} 
+
+.grid-item1 {
+    grid-area: 1 / 1 / 2 / 3 ; 
+    border: solid 10px;
+    background-color: #FFFFFF;
+} 
+
